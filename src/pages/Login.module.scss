@@ -1,0 +1,14 @@
+.redirect {
+  text-align: center;
+  color: var(--color-primary-3);
+
+  a {
+    font-family: inherit;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 2px solid var(--color-primary-3);
+    &:hover {
+      border-bottom: 2px solid var(--color-primary-1);
+    }
+  }
+}

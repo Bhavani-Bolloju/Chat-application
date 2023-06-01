@@ -1,0 +1,20 @@
+.form {
+  font-family: var(--font-family-2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 55rem;
+  margin: auto;
+  padding: 5rem 2rem 0 2rem;
+  height: 90vh;
+  &__container {
+    box-shadow: var(--box-shadow-1);
+    padding: 12rem 8rem;
+    // border: 1px solid var(--color-primary-1);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+}
